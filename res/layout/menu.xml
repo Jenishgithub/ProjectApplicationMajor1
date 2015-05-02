@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Menu Item Declaration -->
+
+    <item
+        android:id="@+id/MENU_SAVE"
+        android:icon="@drawable/save"
+        android:title="Save"/>
+
+    <item
+        android:id="@+id/MENU_VIEW_AS"
+        android:icon="@drawable/viewas"
+        android:title="View As">
+
+        <!-- Sub menu Declaration  of MENU_VIEW_AS menu -->
+
+        <menu>
+
+            <item
+                android:id="@+id/MENU_VIEW_LIST"
+                android:title="List">
+            </item>
+
+            <item
+                android:id="@+id/MENU_VIEW_THUMB"
+                android:title="Thumbnail">
+            </item>
+
+            <item
+                android:id="@+id/MENU_VIEW_DETAILS"
+                android:title="List And Details">
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/MENU_ZOOM"
+        android:icon="@drawable/zoom"
+        android:title="Zoom">
+
+        <!-- Sub menu Declaration  of MENU_ZOOM menu -->
+
+        <menu>
+
+            <item
+                android:id="@+id/MENU_ZOOM1"
+                android:title="150%">
+            </item>
+
+            <item
+                android:id="@+id/MENU_ZOOM2"
+                android:title="200%">
+            </item>
+        </menu>
+    </item>
+
+</menu>
