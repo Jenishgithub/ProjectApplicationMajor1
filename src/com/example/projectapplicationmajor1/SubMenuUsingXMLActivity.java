@@ -56,6 +56,7 @@ public class SubMenuUsingXMLActivity extends Activity {
 					"You Clicked On 200% Zoom SubMenu Item", Toast.LENGTH_LONG)
 					.show();
 			break;
+			//yo mother fucker this is so fucking weird
 		}
 
 		return super.onOptionsItemSelected(item);
